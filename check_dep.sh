@@ -9,7 +9,7 @@ fi
 
 if [ ! -d "/usr/local/lib/python2.7/dist-packages/cle/" ]; then
 	echo "[+] installing cle..."
-	sudo pip install cle
+	sudo pip2 install cle
 fi
 
 sudo apt-get install msr-tools
